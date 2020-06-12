@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/id_main"
+            android:title="@string/main_menu_title">
+            <menu>
+                <item
+                    android:id="@+id/id_home"
+                    android:title="@string/home" />
+                <item
+                    android:id="@+id/id_setting"
+                    android:title="@string/settings" />
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group>
+        <item
+            android:id="@+id/id_material"
+            android:title="@string/other_menu_title">
+            <menu>
+                <item
+                    android:id="@+id/id_btns"
+                    android:title="@string/btns_txt" />
+                <item
+                    android:id="@+id/id_tabs"
+                    android:title="@string/tabs_txt" />
+                <item
+                    android:id="@+id/id_chips"
+                    android:title="@string/chips_txt" />
+                <item
+                    android:id="@+id/id_cards"
+                    android:title="@string/cards_txt" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.materialdesignexample.ui.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_buttonsFragment"
+            app:destination="@id/buttonsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chipsFragment"
+            app:destination="@id/chipsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cardsFragment"
+            app:destination="@id/cardsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tabsFragment"
+            app:destination="@id/tabsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.materialdesignexample.ui.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/buttonsFragment"
+        android:name="com.example.materialdesignexample.ui.materials.butns.ButtonsFragment"
+        android:label="ButtonsFragment" />
+    <fragment
+        android:id="@+id/chipsFragment"
+        android:name="com.example.materialdesignexample.ui.materials.chips.ChipsFragment"
+        android:label="ChipsFragment" />
+    <fragment
+        android:id="@+id/cardsFragment"
+        android:name="com.example.materialdesignexample.ui.materials.cards.CardsFragment"
+        android:label="CardsFragment" />
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="com.example.materialdesignexample.ui.materials.tabs.TabsFragment"
+        android:label="TabsFragment" />
+</navigation>

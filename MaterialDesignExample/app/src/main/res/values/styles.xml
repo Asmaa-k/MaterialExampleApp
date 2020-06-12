@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">?attr/isLightTheme</item>
+    </style>
+
+    <style name="ButtonToggleGroup" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="tabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- <item name="tabIndicatorFullWidth">false</item>  that's if we don't won't the indicator to be full width-->
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>

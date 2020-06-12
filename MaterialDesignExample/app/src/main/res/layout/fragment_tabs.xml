@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="40dp">
+
+    <!-- first tab -with badge- -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab1"
+        android:layout_margin="4dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_a_24"
+            android:text="@string/tab_a_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_b_24"
+            android:text="@string/tab_b_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_c_24"
+            android:text="@string/tab_c_label"/>
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <!-- second tab -with badge- -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab2"
+        android:layout_margin="4dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs2"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_a_24"
+            android:text="@string/tab_a_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_b_24"
+            android:text="@string/tab_b_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_c_24"
+            android:text="@string/tab_c_label"/>
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <!-- third tab -with only icons- -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab3"
+        android:layout_margin="4dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs3"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_a_24" />
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_b_24" />
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:icon="@drawable/ic_icon_c_24" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <!-- third tab -with only text- -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab4"
+        android:layout_margin="4dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs4"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:text="@string/tab_a_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:text="@string/tab_b_label"/>
+        <com.google.android.material.tabs.TabItem
+            style="@style/tabStyle"
+            android:text="@string/tab_c_label"/>
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>

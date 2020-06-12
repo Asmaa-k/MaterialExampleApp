@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ماتيريل ديزاين</string>
+    <string name="settings">الاعدادات</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="main_menu_title">خيارات رئيسية</string>
+    <string name="other_menu_title">خيارات مكتبة متيريل</string>
+    <string name="hello">مرحبا بالعالم</string>
+    <string name="btns_txt">بوتون</string>
+    <string name="tabs_txt">تاب</string>
+    <string name="chips_txt">تشيب</string>
+    <string name="cards_txt">كاردز</string>
+    <string name="test_txt">اضغط على الزر حتى تغير ستايل النص</string>
+
+    //start tabs fragment
+    <string name="tab_a_label">تسوق</string>
+    <string name="tab_b_label">اخبار</string>
+    <string name="tab_c_label">خرائط</string>
+    //end tabs fragment
+
+    //start settings fragment
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="change_theme">تغير الثيم</string>
+    <string name="light">الوضع النهاري</string>
+    <string name="dark">الوضع الليلي</string>
+    <string name="theme_txt">اختار سمة التطبيق</string>
+
+    <string name="lang_txt">أختار اللغة</string>
+    <string name="arabic">اللغة العربية</string>
+    <string name="eng">اللغة الإنكليزية</string>
+    //end settings fragment
+
+    <string name="main_txt">هذا التطبيق البسيط لغرض التعلم
+يعرض بعض المكونات الرئيسية من مكتبة ماتيريل ديزاين وأيضًا إعداد اللغة و إعداد الوضع اليلي و النهاري للتطبيق
+</string>
+</resources>

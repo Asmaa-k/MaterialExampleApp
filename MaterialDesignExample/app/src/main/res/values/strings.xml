@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="main_menu_title">Main Options</string>
+    <string name="other_menu_title">Material Design Options</string>
+    <string name="hello">Hello World</string>
+    <string name="btns_txt">Button</string>
+    <string name="tabs_txt">Tabs</string>
+    <string name="chips_txt">Chips</string>
+    <string name="cards_txt">Cards</string>
+
+    //start buttons fragment
+    <string name="normal_btn" translatable="false">Normal Button</string>
+    <string name="outline_btn" translatable="false">OutLined Button</string>
+    <string name="text_btn" translatable="false">Text Button</string>
+    <string name="toggle_btn" translatable="false">Toggle Button</string>
+    <string name="test_txt">Click On Button To Change The Text Style</string>
+    //end buttons fragment
+
+    //start chips fragment
+    <string name="action_chp" translatable="false">Action Chips</string>
+    <string name="filter_chp" translatable="false">Filter Chips</string>
+    <string name="choice_chp" translatable="false">Choice Chips</string>
+    <string name="entry_chp" translatable="false">Entry Chips</string>
+    //end buttons fragment
+
+    //start tabs fragment
+    <string name="tab_a_label" >Shopping</string>
+    <string name="tab_b_label" >News</string>
+    <string name="tab_c_label">Maps</string>
+
+    <string name="tab1" translatable="false">With Badges</string>
+    <string name="tab2" translatable="false">Without Badge</string>
+    <string name="tab3" translatable="false">With Only Icons</string>
+    <string name="tab4" translatable="false">With Only Text</string>
+    //end tabs fragment
+
+    //start settings fragment
+    <string name="change_lang" >Change Language</string>
+    <string name="change_theme" >Change Theme</string>
+    <string name="theme_txt">Choose app theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <string name="lang_txt">Choose app Language</string>
+    <string name="arabic">Arabic</string>
+    <string name="eng">English</string>
+    //end settings fragment
+
+    <string name="main_txt">this simple app is for learning purpose
+it shows some of the main component from material library and also language setup as will as (Dark and White) setup</string>
+</resources>
